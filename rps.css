@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    font:  sans-serif;
+    font-weight: 600;
+    padding:10px;
+    text-align: center;
+    background-color: rgba(156, 56, 56, 0.629);
+    color: aliceblue;
+    
+
+}
+
+h1{
+    font-size:4rem;
+}
+button{
+    font-size: 4rem;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 3px solid black;
+    cursor: pointer;
+}
+button:hover{
+    background-color: antiquewhite;
+}
+#playerdisplay{
+    font-size: 2rem;
+    padding-top: 10px;
+}
+#computerdisplay{
+    font-size: 2rem;
+    padding-top: 10px;
+}
+#result{
+    font-size: 2rem;
+}
+#resultdisplay{
+    font-size: 3rem;
+}
+.greentext,#playerscoredisplay{
+    color:rgb(147, 240, 7);
+
+}
+.redtext,#computerscoredisplay{
+    color:rgb(216, 53, 53);
+    
+}
+.scoredisplay{
+    font-size: 2rem;
+    padding: 10px;
+}
